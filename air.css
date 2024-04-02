@@ -1,0 +1,32 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.container{
+    background-image: url(image/adeyemi\ construct.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.airplane{
+    width: 300px;
+    margin-top: 460px;
+    position: absolute;
+    left: -120px;
+    animation: plane 4s linear infinite;
+    
+}
+@keyframes plane {
+  100%{
+    transform: translateX(0px) translateY(0px) rotate(0deg);
+  }
+  25%{
+    transform: translateX(500px) translateY(0px) rotate(0deg);
+  }   
+  100%{
+    transform: translateX(1800px) translateY(-250px) rotate(-25deg);
+  } 
+}
